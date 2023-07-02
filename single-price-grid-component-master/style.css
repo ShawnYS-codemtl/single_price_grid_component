@@ -123,3 +123,10 @@ button:hover {
     list-style: none;
     opacity: 0.7;
 }
+
+@media (max-width: 650px){
+    #bottom-left-section, #bottom-right-section, #card {
+        width: 100%;
+        height: auto; /* so that the two lower sections can be seen vertically */
+    }
+}
